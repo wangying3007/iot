@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.servlet.LoginServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>HistoryServlet</servlet-name>
+    <servlet-class>com.servlet.HistoryServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>realtimeValue</servlet-name>
+    <servlet-class>com.servlet.realtimeValue</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>rtJsonServlet</servlet-name>
+    <servlet-class>com.servlet.rtJsonServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SensorUpdate</servlet-name>
+    <servlet-class>com.servlet.SensorUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SwitchSensor</servlet-name>
+    <servlet-class>com.servlet.SwitchSensor</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>realtimeJson</servlet-name>
+    <servlet-class>com.servlet.realtimeJson</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MaxMinServlet</servlet-name>
+    <servlet-class>com.servlet.MaxMinServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HistoryJson</servlet-name>
+    <servlet-class>com.servlet.HistoryJson</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FileDownload</servlet-name>
+    <servlet-class>com.servlet.FileDownload</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>HistoryServlet</servlet-name>
+    <url-pattern>/servlet/HistoryServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>realtimeValue</servlet-name>
+    <url-pattern>/servlet/realtimeValue</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>rtJsonServlet</servlet-name>
+    <url-pattern>/servlet/rtJsonServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SensorUpdate</servlet-name>
+    <url-pattern>/servlet/SensorUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/servlet/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SwitchSensor</servlet-name>
+    <url-pattern>/servlet/SwitchSensor</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>realtimeJson</servlet-name>
+    <url-pattern>/servlet/realtimeJson</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MaxMinServlet</servlet-name>
+    <url-pattern>/servlet/MaxMinServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HistoryJson</servlet-name>
+    <url-pattern>/servlet/HistoryJson</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FileDownload</servlet-name>
+    <url-pattern>/servlet/FileDownload</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+
+</web-app>

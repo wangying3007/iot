@@ -1,0 +1,250 @@
+/**{	margin: 0;
+	padding: 0;}*/
+/*html{ 
+	width: 100%;
+	height:100%;
+	min-height: 600px;
+	min-width: 1300px;
+	max-height: 1280px;
+	max-width: 1920px;
+	}
+	
+body{width: 100%;
+	margin:0;
+	padding:0;
+	height:100%;
+	min-height: 600px;
+	max-width: 1920px;
+	max-height: 1280px;
+	}*/
+html,body{
+	width: 100%;
+	min-height: 100%;
+}
+body{
+	background-image:url(../img/register/lgbgimg.jpg);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.login_containter{
+	width:100%;
+	height:100%;
+	}
+.Hailogo{
+	width:7em;
+	position:absolute;
+	top:10px;
+	left:50px;
+	}
+	
+.webname{
+	display:block; 
+	text-align: left; 
+	padding: 1em; 
+	font: 3em/100% STXingkai;
+	color: rgba(10,10,10, 0.8);
+	text-shadow: 1px 1px 2px #009944, 0 0 0 #000;	
+	position:absolute;
+	top:10px;
+	left:170px;
+	white-space:nowarp;
+	}
+		
+.login_mainbody{
+	width:400px;
+	border-radius:10px;
+	font-family:Microsoft Yahei;
+	position:absolute;
+	right:200px;
+	top:350px;
+	margin-top:-120px;
+	padding-bottom:40px;
+	background: rgba(255,255,255,.7);
+	
+	}
+
+/*浏览器尺寸不小于1000px时距离顶部450px*/
+
+	
+.login_mainbody h1{
+	margin-left:10px;
+	font-weight:bold;
+	font-size:22px;
+	line-height:30px;
+	color:#666;
+	font-family:Microsoft Yahei;
+/*	float:left;*/
+	margin-top:20px;
+	margin-left:50px;
+	display: block;
+
+	}
+
+.login_mainbody img{
+	margin-top:20px;
+	margin-left:50px;
+	float: left;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+	background-color: #fff;
+	border-top:#999 1px solid;
+	border-left:#999 1px solid;
+	border-bottom:#999 1px solid;
+}
+	
+.login_mainbody input{
+	float:left;
+	/*clear:left;*/
+	width:260px;
+	height:30px;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+/*	border-top:#999 1px solid;
+	border-right:#999 1px solid;
+	border-bottom:#999 1px solid;*/
+	border: #999 1px solid;
+	font-size:16px;
+	margin-top:20px;
+	/*margin-left:50px;*/
+	font-family:Microsoft Yahei;
+	}
+.login_button{
+	width: 301px !important;
+	border-radius: 5px;
+	margin-left:50px;
+	cursor:pointer;
+	color:#FFF;
+	background: #4477a1;
+	background: -webkit-gradient(linear, left top, left bottom, from(#81a8cb), to(#4477a1) );  
+	}	
+
+.login_button:hover{
+	background: #81a8cb;
+    background: -webkit-gradient(linear, left top, left bottom, from(#4477a1), to(#81a8cb) );
+	}
+	
+.login_mainbody a{
+	color:#333;
+	font-size:14px;
+	margin-top:20px;
+	margin-left: 92px;/*两个提示信息时的margin值*/
+	/*margin-left:56px;*//*三个提示信息时的margin值*/
+	float:left;
+	}
+
+.login_mainbody a:link {
+	color:#333;
+}
+
+.login_mainbody a:visited {
+    color:#333;
+}
+    
+.login_mainbody a:hover {
+    color:blue;
+    }
+    
+.login_mainbody a:active {
+    color:blue;
+}
+
+.login_mainbody p{
+	float:left;
+	clear:left;
+	font-size:14px;
+	line-height:28px;
+	margin-top:20px;
+	margin-left:100px;
+	color:#000;
+	display:none;
+	}
+	
+.login_username{
+/*	background-image:url(../img/register/user.png) !important;
+	background-repeat:no-repeat;*/
+	text-indent:14px;
+	}
+	
+.login_password{
+/*	background-image:url(../img/register/lock.png) !important;
+	background-repeat:no-repeat;*/
+	text-indent:14px;
+	}
+input:-webkit-autofill {
+     -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.loginerror{
+	position: absolute;
+	bottom: 10px;
+	left: 50px;
+	color: #f00;
+	font-size: 14px;
+
+}
+@media screen and (min-height: 1000px) { 
+.login_mainbody {top: 450px;} 
+} 
+@media screen and (min-width: 1400px) { 
+.login_mainbody {right: 350px;} 
+} 
+@media screen and (max-width: 800px){
+.login_containter {
+	width:100%;
+/*	background-image: none;
+	background-color: #99CC66;
+	background-image:
+	repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+	repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+	linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+	linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+	background-size: 70px 120px;
+	background-repeat: repeat;*/
+}
+.login_mainbody {
+	width: 350px;
+	top: 250px;
+	right: 50%;
+	margin-right: -175px;
+	background: none;
+}
+.login_mainbody h1{
+	/*text-align: center;*/
+	margin-left: calc(50% - 1em) ;
+}
+.login_mainbody img{
+	margin-left: 20px;
+}
+.login_mainbody input[type="submit"]{
+	margin-left: 20px;
+}
+.login_mainbody a{
+	margin-left: 72px;
+}
+.webname{
+	font-size: 20px;
+	line-height: 30px;
+	left: 3em;
+}
+.Hailogo{
+	width: 3em;
+	top: 1em;
+	left: 1em;
+}
+html,body{
+	min-width: 300px;
+	/*min-height: 100%;*/
+	max-height: 1920px;
+}
+body{
+	background-image: none;
+	background-color: #99CC66;
+	background-image:
+	repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+	repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+	linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+	linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+	background-size: 70px 120px;
+	background-repeat: repeat;
+}
+}
